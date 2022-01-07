@@ -1,3 +1,7 @@
-p {
+.quote {
   color: red;
+}
+
+#mainquote {
+  border:  3px solid purple;
 }
