@@ -6,15 +6,26 @@
     <title></title>
 
     <link href="style.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
 
 <body>
     <h1>Mozilla is cool</h1>
+
+    <!-- Adding buttons to show and hide fox icon -->
 
     <img id="image" src="firefox-icon/firefox-icon.png" alt="The Firefox logo: a flaming fox surrounding the Earth.">
 
     <button type="mybutton" onclick="show()" id="show"> Show fox</button>
 
     <button type="mybutton" onclick="hide()" id="hide"> Hide fox</button>
+
+    <!-- Adding a toggle button -->
+
+    <button onclick="myFunction()">Toggle fox</button>
+
+    <div id='image'> </div>
+
+    <!-- Buttons work only in a certain order. Click show first and then hide. If you click hide first then show will not work. Similarly hard refresh before clicking on the toggle button. It does not work after using show/hide buttons.-->
 
     <p>At Mozilla, we’re a global community of</p>
 
